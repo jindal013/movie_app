@@ -48,6 +48,8 @@ export const getTrendingMovies = async () => {
       Query.orderDesc("count")
     ]);
 
+    // console.log(result.documents)
+
     return result.documents;
     
   } catch (error) {
