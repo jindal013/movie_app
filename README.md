@@ -26,9 +26,9 @@ Before you begin, ensure you have the following installed:
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+1. Clone the repository (SSH version below):
 ```bash
-git clone <your-repository-url>
+git clone git@github.com:jindal013/movie_app.git
 ```
 
 2. Navigate to the project directory:
@@ -50,7 +50,7 @@ The application will be available at `http://localhost:5173` (or another port if
 
 ## 🔧 Environment Variables
 
-Create a `.env` file in the root directory with the following variables:
+Create a `.env.local` file in the root directory with the following variables:
 
 ```env
 VITE_TMDB_API_KEY=your_tmdb_api_key
